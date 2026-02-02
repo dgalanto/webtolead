@@ -192,7 +192,8 @@
 <label for="acctname">Account Name:</label><input  id="00NRg00000OlJhJ" maxlength="100" name="00NRg00000OlJhJ" size="25" type="text" required/><br>
 </td></tr>
 <tr><td>
-<label for="opptyamt">Opportunity Amount:</label><input  id="00NRg00000OlJSn" name="00NRg00000OlJSn" size="10" type="number" required/><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="opptyamt">Opportunity Amount:</label>
+    <input  id="00NRg00000OlJSn" name="00NRg00000OlJSn" size="10"  pattern="^\d+(\.\d{1,2})?$" title="Enter a valid currency amount (e.g., 1234.56)" type="text" required/>
 </td><td>
 <label for="closedate">Close Date:</label><span class="dateInput dateOnlyInput" required><input  id="00NRg00000OlJUP" name="00NRg00000OlJUP" size="10" type="date" required/></span><br>
 </td></tr>
